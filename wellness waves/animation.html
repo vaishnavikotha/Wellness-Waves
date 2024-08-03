@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url('/img/details.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            animation: backgroundAnimation 20s infinite alternate; /* Adjust animation duration as needed */
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        #INSTRUCTIONS {
+            color: rgb(30, 0, 255);
+            letter-spacing: 2px;
+            font-family: Georgia;
+            font-size: 50px;
+        }
+
+        li {
+            color: black;
+            font-style: italic;
+            font-size: 20px;
+            word-spacing: 5px;
+        }
+
+        #next-btn {
+            height: 55px;
+            width: 200px;
+            letter-spacing: 2px;
+            margin-top: 50px;
+            background-color: yellow;
+            border-radius: 20px;
+            margin-left: 100px;
+        }
+
+        #next-btn:hover {
+            background-color: blueviolet;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 id="INSTRUCTIONS"><u>INSTRUCTIONS !!!!!!!!</u></h1>
+    </center>
+    <ol type="I">
+        <!-- ... (your existing content) ... -->
+    </ol>
+    <a href="INDEX.html"><button id="next-btn">START NOW</button></a>
+</body>
+</html>
